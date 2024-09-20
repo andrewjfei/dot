@@ -1,0 +1,53 @@
+return {
+    -- show keymap options
+    "folke/which-key.nvim",
+    event = "VimEnter",
+    opts = {
+        icons = {
+            mappings = false,
+            breadcrumb = ">",
+            group = "+",
+            separator = ">",
+            keys = {
+                Up = "<up>",
+                Down = "<down>",
+                Left = "<left>",
+                Right = "<right>",
+                C = "<c-_>",
+                M = "<m-_>",
+                D = "<d-_>",
+                S = "<s-_>",
+                CR = "<cr>",
+                Esc = "<esc>",
+                ScrollWheelDown = "<scroll-down>",
+                ScrollWheelUp = "<scroll-up>",
+                NL = "<nl>",
+                BS = "<bs>",
+                Space = "<space>",
+                Tab = "<tab>",
+                F1 = "<f1>",
+                F2 = "<f2>",
+                F3 = "<f3>",
+                F4 = "<f4>",
+                F5 = "<f5>",
+                F6 = "<f6>",
+                F7 = "<f7>",
+                F8 = "<f8>",
+                F9 = "<f9>",
+                F10 = "<f10>",
+                F11 = "<f11>",
+                F12 = "<f12>",
+            },
+        },
+
+        -- document existing key chains
+        spec = {
+            { "<leader>g", group = "[g]lobal" },
+            { "<leader>c", group = "[c]lear" },
+            { "<leader>d", group = "[d]iagnostic" },
+            { "<leader>s", group = "[s]earch" },
+            { "<leader>w", group = "[w]indow" },
+            { "<leader>t", group = "[t]oggle" },
+        },
+    },
+}
