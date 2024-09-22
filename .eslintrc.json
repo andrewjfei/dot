@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true   
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2021
+    },
+    "rules": {
+        "indent": [ "warn", 4 ],
+        "quotes": [ "warn", "double" ],
+        "comma-dangle": [ "warn", "never" ],
+        "no-tabs": "warn"
+    }
+}   
